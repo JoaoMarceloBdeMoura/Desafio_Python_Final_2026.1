@@ -60,3 +60,5 @@ else:
 #3. Exibição de Resultados:
 
 print(f"\nCusto total da viagem: R${(gasto_total)} reais\n")
+
+print("sou brabo")
