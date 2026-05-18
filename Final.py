@@ -56,3 +56,7 @@ elif orcamento == gasto_total:
     print("Sobra nada pro beta")
 else:
     print(f"Vai na fé, te sobra {(orcamento - gasto_total):.2f} reais ({(orcamento - gasto_total)/6.1:.2f} euros) para ir em {destino}. Orçamento possível e Viável")
+
+#3. Exibição de Resultados:
+
+print(f"\nCusto total da viagem: R${(gasto_total)} reais\n")
