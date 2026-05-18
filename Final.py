@@ -39,3 +39,20 @@ while validador == 1:
         break
                            
     validador = 0
+
+#2. Cálculos e Lógica:
+print("\n")
+conversao = float(orcamento/6.1)
+print(f"Teu orçamento vale {conversao:.2f} Euros kkkkkkkkkkkkk\n")
+
+calc_hospedagem = float(hospedagem*6.1)
+gasto_total = float(calc_hospedagem * dias)
+
+#Validação do orçamento
+if orcamento < gasto_total:
+    print("Não vai dar não man. Orçamento não possível e Não Viável")
+    print(f"Te falta {(gasto_total - orcamento):.2f} reais ({(gasto_total - orcamento)/6.1:.2f} euros) para ir em {destino}")
+elif orcamento == gasto_total:
+    print("Sobra nada pro beta")
+else:
+    print(f"Vai na fé, te sobra {(orcamento - gasto_total):.2f} reais ({(orcamento - gasto_total)/6.1:.2f} euros) para ir em {destino}. Orçamento possível e Viável")
